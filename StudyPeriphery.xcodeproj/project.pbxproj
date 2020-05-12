@@ -13,6 +13,7 @@
 		193DB7A9246A212F00C473C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193DB7A8246A212F00C473C8 /* Assets.xcassets */; };
 		193DB7AC246A212F00C473C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193DB7AB246A212F00C473C8 /* Preview Assets.xcassets */; };
 		193DB7AF246A212F00C473C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193DB7AD246A212F00C473C8 /* LaunchScreen.storyboard */; };
+		193DB7B8246A243300C473C8 /* Unuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193DB7B7246A243300C473C8 /* Unuse.swift */; };
 		AF3FFADD6CA14E03019C3299 /* Pods_StudyPeriphery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B069E8ABAEC2B87EE19A49 /* Pods_StudyPeriphery.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		193DB7AB246A212F00C473C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		193DB7AE246A212F00C473C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		193DB7B0246A212F00C473C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193DB7B7246A243300C473C8 /* Unuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Unuse.swift; path = /Users/takayuki.sei/go/src/github.com/DayBySay/StudyPeriphery/StudyPeriphery/Unuse.swift; sourceTree = "<absolute>"; };
 		2AB6A13CCDC85F6A67B1F7D4 /* Pods-StudyPeriphery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyPeriphery.release.xcconfig"; path = "Target Support Files/Pods-StudyPeriphery/Pods-StudyPeriphery.release.xcconfig"; sourceTree = "<group>"; };
 		2BB9121919F263CB0CA70896 /* Pods-StudyPeriphery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyPeriphery.debug.xcconfig"; path = "Target Support Files/Pods-StudyPeriphery/Pods-StudyPeriphery.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B069E8ABAEC2B87EE19A49 /* Pods_StudyPeriphery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyPeriphery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 		193DB7A1246A212C00C473C8 /* StudyPeriphery */ = {
 			isa = PBXGroup;
 			children = (
+				193DB7B7246A243300C473C8 /* Unuse.swift */,
 				193DB7A2246A212C00C473C8 /* AppDelegate.swift */,
 				193DB7A4246A212C00C473C8 /* SceneDelegate.swift */,
 				193DB7A6246A212C00C473C8 /* ContentView.swift */,
@@ -96,7 +99,6 @@
 				2BB9121919F263CB0CA70896 /* Pods-StudyPeriphery.debug.xcconfig */,
 				2AB6A13CCDC85F6A67B1F7D4 /* Pods-StudyPeriphery.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -108,6 +110,7 @@
 			buildConfigurationList = 193DB7B3246A212F00C473C8 /* Build configuration list for PBXNativeTarget "StudyPeriphery" */;
 			buildPhases = (
 				73C764D3B63FF7AA6968E412 /* [CP] Check Pods Manifest.lock */,
+				193DB7B9246A244B00C473C8 /* ShellScript */,
 				193DB79B246A212C00C473C8 /* Sources */,
 				193DB79C246A212C00C473C8 /* Frameworks */,
 				193DB79D246A212C00C473C8 /* Resources */,
@@ -168,6 +171,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		193DB7B9246A244B00C473C8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#make scan\n";
+		};
 		73C764D3B63FF7AA6968E412 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +219,7 @@
 			files = (
 				193DB7A3246A212C00C473C8 /* AppDelegate.swift in Sources */,
 				193DB7A5246A212C00C473C8 /* SceneDelegate.swift in Sources */,
+				193DB7B8246A243300C473C8 /* Unuse.swift in Sources */,
 				193DB7A7246A212C00C473C8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
