@@ -7,3 +7,6 @@ scan:
 	--schemes "StudyPeriphery" \
 	--targets "StudyPeriphery" \
 	--no-retain-public
+
+scan-resources:
+	fengniao --project . --exclude Pods Carthage
