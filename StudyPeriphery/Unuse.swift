@@ -11,6 +11,8 @@ protocol Unuse {
     func unuseFunc()
 }
 
+protocol Unuse2 {}
+
 class DefaultUnuse: Unuse {
     func unuseFunc()  {
         print("unuse")
